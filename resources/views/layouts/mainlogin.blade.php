@@ -22,7 +22,7 @@
     <title>DoitNow</title>
 </head>
 
-<body class="bg-gradient-to-r from-red-500 via-red-500 to-red-900">
+<body>
     
     @yield('container')
     
