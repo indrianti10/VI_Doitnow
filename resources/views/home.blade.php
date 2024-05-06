@@ -4,13 +4,12 @@
 
 <!-- banner -->
 <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 lg:pt-32">
- 
     <div class=" pt-28">
-      <div class="lg:ml-20 mt-4 animate-text-banner ">
-        <h1 class="mb-5 text-[73px] font-bold text-[#DD2120]">Do it Now</h1>
-        <p class="font-medium text-black text-[24px] lg:w-[500px]">invites you on an exciting adventure while completing missions and getting attractive rewards!</p>
+      <div class="lg:ml-20 mt-4 animate-text-banner mx-10 ">
+        <h1 class="mb-5 lg:text-[73px] text-4xl font-bold text-[#DD2120]">Do it Now</h1>
+        <p class="font-medium text-black lg:text-[24px] text-xl lg:w-[500px]">invites you on an exciting adventure while completing missions and getting attractive rewards!</p>
         
-        <a class="group relative inline-flex items-center overflow-hidden rounded-full mt-10 bg-black px-11 py-3  text-white focus:outline-none focus:ring active:bg-black" href="#">
+        <a class="group relative inline-flex items-center overflow-hidden rounded-full mt-10 bg-black px-8 py-3  text-white focus:outline-none focus:ring active:bg-black" href="#">
           <span class="absolute -end-full transition-all group-hover:end-4">
             <svg
               class="size-5 rtl:rotate-180"
@@ -27,9 +26,9 @@
               />
               </svg>
           </span>
-            <span class="text-[20px] font-bold transition-all group-hover:me-4">Get Reward</span>
+            <span class="lg:text-[20px] font-bold transition-all group-hover:me-4">Get Reward</span>
         </a>
-        <a class="group relative inline-flex items-center overflow-hidden rounded-full mt-10 bg-[#DD2120] px-11 py-3  text-white focus:outline-none focus:ring active:bg-black" href="#">
+        <a class="group relative inline-flex items-center overflow-hidden rounded-full mt-10 bg-[#DD2120] px-8 py-3  text-white focus:outline-none focus:ring active:bg-black" href="#">
           <span class="absolute -end-full transition-all group-hover:end-4">
             <svg
               class="size-5 rtl:rotate-180"
@@ -46,20 +45,21 @@
               />
               </svg>
           </span>
-            <span class="text-[20px] font-bold transition-all group-hover:me-4">Learn more</span>
+            <span class="lg:text-[20px] font-bold transition-all group-hover:me-4">Learn more</span>
         </a>
       </div>
     </div>
     <div class=" lg:ml-24">
       <img src="../img/banner.png" class="animated-image-banner "  alt="">
-      <img src="/img/bg1.png" class="mt-[-400px]  z-[-20px]" alt="">
+      <img src="/img/bg1.png" class="mt-[-400px] z-[-20px]" alt="">
     </div>
   </div>
+</div>
   <!-- banner -->
 
   <!-- conten1 -->
   <section class="lg:mt-[-218px] text-center flex items-center justify-center  background lg:h-36 h-44 w-full">
-    <h1 class="font-bold text-white lg:text-[69px] text-5xl ">Made for people. Built for productivity.</h1>
+    <h1 class="font-bold text-white lg:text-[69px] text-4xl ">Made for people. Built for productivity.</h1>
     
   </section>
   <!-- conten1 -->
@@ -99,45 +99,45 @@
       <div class="flex mt-[-70px] ml-[90px] lg:w-14 lg:h-14 w-11 h-11 rounded-full bg-white animate-lingkaran animate-bullet-top"></div>
     </div> --}}
     <div  class="lg:mx-32 lg:pt-0 pt-28">
-      <h1 class="lg:text-[63px] text-3xl mb-10 mt-[-50px] lg:pt-20 lg:h-36  font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#FF0000] to-[#010101]  ">What is your possition ?</h1>
+      <h1 class="lg:text-[63px] text-2xl mb-10 mt-[-50px] lg:pt-20 lg:h-36 lg:ml-0 ml-10 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#010101] to-[#FF0000]  ">What is your possition ?</h1>
       <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 lg:mt-14 lg:mx-24">
         <a href="  " class="transition duration-300 transform hover:scale-105">
-        <div class="lg:h-32 mx-10 lg:mx-0 flex justify-center content-center shadow-lg shadow-slate-500 rounded-lg bg-grid ">
+        <div class="lg:h-32 mx-10 lg:mx-0 flex justify-center py-3 lg:py-0 content-center shadow-lg shadow-slate-500 rounded-lg bg-grid ">
           <div class="flex justify-center items-center ">
-            <img src="../img/Project Manager.png" clas alt="">
-            <p class="text-4xl ml-4 pt-6 font-semibold text-white">a Company </p>
-            <i class="fas fa-chevron-right text-4xl pt-9 ml-5 "></i>
+            <img src="../img/Project Manager.png" class="w-16" alt="">
+            <p class="lg:text-4xl text-2xl ml-4 lg:pt-6 font-semibold text-white">a Company </p>
+            <i class="fas fa-chevron-right text-2xl lg:text-4xl pt-3 lg:pt-9 ml-5 "></i>
           </div>
           
         </div>
         </a>
 
         <a href="" class="transition duration-300 transform hover:scale-105">
-          <div class="h-28 lg:h-32 rounded-lg bg-grid mx-10 lg:mx-0 shadow-lg shadow-slate-500 ">
+          <div class="lg:h-32 mx-10 lg:mx-0 flex justify-center py-3 lg:py-0 content-center shadow-lg shadow-slate-500 rounded-lg bg-grid">
             <div class="flex justify-center items-center ">
-              <img src="../img/Requirements.png" class="mt-2   " alt="">
-              <p class="text-4xl ml-4 pt-6 font-semibold text-white"> a Missionary</p>
-              <i class="fas fa-chevron-right text-4xl pt-9 ml-5 "></i>
+              <img src="../img/Requirements.png" class="mt-2 w-16   " alt="">
+              <p class="lg:text-4xl text-2xl ml-4 lg:pt-6 font-semibold text-white"> a Missionary</p>
+              <i class="fas fa-chevron-right text-2xl lg:text-4xl pt-3 lg:pt-9 ml-5 "></i>
             </div>
           </div>
         </a>
       </div>
     </div>
-    <img src="/img/bg2.png" class="lg:mt-[-100px]" alt="">
+    <img src="/img/bg2.png" class="lg:mt-[-100px} lg:w-full mt-[-120px] w-64" alt="">
   </div>
   <!-- content 3 -->
 
   <!-- content 4 -->
-  <section class="lg:mt-[-200px] ">
-    <h2 class=" lg:text-[49px]  lg:ml-32 font-medium bg-clip-text text-transparent bg-gradient-to-r from-[#010101]  to-[#FF0000]">Do you as a company?</h2>
+  <section class="lg:mt-[-200px] mt-[-550px] mx-10 lg:mx-0  ">
+    <h2 class=" lg:text-[49px] text-2xl  lg:ml-32 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#010101]  to-[#FF0000]">Do you as a company?</h2>
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
-      <div class="h-96 lg:ml-32 text-[60px] lg:mt-5">
+      <div class="h-96 lg:ml-32 text-3xl lg:text-[60px] lg:mt-5 mt-3">
         <h1 class=" font-semibold mb-9">Reach more <span class="text-[#DD2120] font-medium">audience,</span> 
           increase <span class="text-[#DD2120]"> engagement.</span> </h1>
           <a href="" class="border rounded-lg text-[26px] px-12 py-3 bg-[#DD2120] text-white transition custom-btn inline-blocfont-semibold shadow-xl shadow-slate-300">Get Started</a>
       </div>
       <div class="h-32 ">
-        <img src="/img/grafik.png" alt="">
+        <img src="/img/grafik.png" class="" alt="">
       </div>
     </div>
   </section> 
@@ -389,7 +389,6 @@
 
       </div>
     </div>
-  </div>
   <!-- patner -->
     
 @endsection

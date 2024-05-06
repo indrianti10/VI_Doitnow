@@ -4,84 +4,182 @@
      
 <section class="bg-white">
     <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
-      <section class="relative flex h-32 items-center bg-white lg:col-span-5 lg:h-full xl:col-span-6">
-        <img
-          alt=""
-          src="/img/bannerlogin.png"
-          class="absolute h-full  w-[500px] object-cover  "
-        />
+      <section class="relative flex h-32 items-center bg-red-600 lg:col-span-5 lg:h-full xl:col-span-6">
+            <img src="/img/loginbanner.png" class="flex justify-center items-center mx-56 " alt="">
+
       </section>
   
      
       <main
-      class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
+      class="flex items-center justify-center px-8  sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
     >
-      <div class="max-w-xl lg:max-w-3xl">
-        <img src="/img/logo.png" class="flex justify-center items-center mx-auto mb-8 " alt="">
+      <div class="max-w-xl lg:w-full lg:mt-[-50px]">
 
         <h1 class="mt-6 text-[45px] text-center font-bold text-gray-900 sm:text-3xl md:text-4xl">
-          Welcome to Doitnow.id
+          Create your account
         </h1>
 
         <p class="mt-1 text-center leading-relaxed text-gray-500">
             Get started  - deliver your best work with us
         </p>
+        <h2 class="text-center mt-10 text-[25px] font-medium">Sign in to Button as...</h2>
 
-        <!-- Button Login with Google -->
-        <button type="submit"
-        class="flex mt-8 items-start justify-center w-full text-primary bg-[#F4F4F4] font-bold hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5">
-        <img src="img/google.png" class="w-6 h-6" alt="">
-        <a href="" class="ml-3 font-normal text-[24px]"> Continue with your Google work account</a>
-    </button>
-    <p class="text-center my-5 text-[24px] text-gray-500">Or</p>
+        <div class="flex justify-center items-center mt-4">
+            <div role="tablist" class="tabs tabs-bordered ">
+                <input type="radio" name="my_tabs_1" role="tab" class="tab text-xl font-medium hover:text-red-600" aria-label="Admin" checked />
+                <div role="tabpanel" class="tab-content pt-5">
+                    <div class="max-w-md ">
+                        <form class="pt-2 pb-8 mb-4">
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="name">
+                              Name
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your full name">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="email">
+                              Email
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your full email">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="password">
+                              Password
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter at least 8 characters">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="admin-id">
+                              Admin ID
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="admin-id" type="text" placeholder="Enter your admin ID">
+                          </div>
+                          <!-- Button continue -->
+                            <div class="flex justify-center items-center">
+                                <button type="submit"
+                                class="mt-8 w-96 text-white bg-black font-bold hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
+                                <a href="" class="ml-3 font-normal text-[24px]"> Continue</a>
+                                </button>
+                            </div>
 
-            {{-- email --}}
-            <div class="relative">
-                <form action="/login" method="post">
-                    <div>
-                        <input
-                        type="email"
-                        id="email"
-                        name = "email"
-                        placeholder="name@example.com"
-                        autofocus value="{{ old('email') }}"
-                        class="w-full text-center text-[24px] rounded-lg py-3 bg-[#F4F4F4] border-gray-200 pe-10 shadow-sm sm:text-sm"
-                        />
-                        @error('email')
-                                <div class="text-red-500">
-                                    {{ $message }}
-                                </div>
-                                @enderror
+                            <!-- Button back-->
+                            <div class="flex justify-center items-center">
+                                <button type="submit"
+                                class="mt-4 w-96 text-white bg-[#FF0000] font-bold hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
+                                <a href="" class="ml-3 font-normal text-[24px]"> Back</a>
+                                </button>
+                            </div>
+
+                            <div class="text-center mt-3 text-xl">
+                                <p>Already have an account ? <a href="" class="text-blue-500 hover:text-blue-700">Log in</a></p>
+                            </div>        
+                        </form>
+                    </div>                     
+                </div>
+              
+                <input type="radio" name="my_tabs_1" role="tab" class="tab mx-10 text-xl font-medium hover:text-red-600" aria-label="Company"  />
+                <div role="tabpanel" class="tab-content pt-5">
+                    <div class="max-w-md ">
+                        <form class="pt-2 pb-8 mb-4">
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="name">
+                              Name
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your full name">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="email">
+                              Email
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your full email">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="password">
+                              Password
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter at least 8 characters">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="phone">
+                              Phone number
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" type="text" placeholder="Enter your personal or company's number">
+                          </div>
+                          <!-- Button continue -->
+                            <div class="flex justify-center items-center">
+                                <button type="submit"
+                                class="mt-8 w-96 text-white bg-black font-bold hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
+                                <a href="" class="ml-3 font-normal text-[24px]"> Continue</a>
+                                </button>
+                            </div>
+
+                            <!-- Button back-->
+                            <div class="flex justify-center items-center">
+                                <button type="submit"
+                                class="mt-4 w-96 text-white bg-[#FF0000] font-bold hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
+                                <a href="" class="ml-3 font-normal text-[24px]"> Back</a>
+                                </button>
+                            </div>
+
+                            <div class="text-center mt-3 text-xl">
+                                <p>Already have an account ? <a href="" class="text-blue-500 hover:text-blue-700">Log in</a></p>
+                            </div>        
+                        </form>
                     </div>
-                    
-                </form>        
-                
-            </div>
+                </div>
+              
+                <input type="radio" name="my_tabs_1" role="tab" class="tab text-xl font-medium hover:text-red-600" aria-label="Missionary" />
+                <div role="tabpanel" class="tab-content pt-5">
+                    <div class="max-w-md ">
+                        <form class="pt-2 pb-8 mb-4">
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="name">
+                              Name
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your full name">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="email">
+                              Email
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Enter your full email">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="password">
+                              Password
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter at least 8 characters">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2" for="phone">
+                              Phone number
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phone" type="text" placeholder="Enter your personal or company's number">
+                          </div>
+                          <!-- Button continue -->
+                            <div class="flex justify-center items-center">
+                                <button type="submit"
+                                class="mt-8 w-96 text-white bg-black font-bold hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
+                                <a href="" class="ml-3 font-normal text-[24px]"> Continue</a>
+                                </button>
+                            </div>
 
-            <div class="text-center mt-5 text-[20px] text-gray-500">
-                <p>By proceeding, you agree to the</p>
-            <p><a href="" class=" text-blue-600 hover:text-blue-900">Terms of Service</a> and <a  href="" class=" text-blue-600 hover:text-blue-900">Privacy Policy</a></p>
-            </div>
+                            <!-- Button back-->
+                            <div class="flex justify-center items-center">
+                                <button type="submit"
+                                class="mt-4 w-96 text-white bg-[#FF0000] font-bold hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
+                                <a href="" class="ml-3 font-normal text-[24px]"> Back</a>
+                                </button>
+                            </div>
 
-            <!-- Button continue -->
-            <div class="flex justify-center items-center">
-                <button type="submit"
-                class="mt-8 w-96 text-white bg-black font-bold hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
-                <a href="" class="ml-3 font-normal text-[24px]"> Continue</a>
-            </button>
-            </div>
-
-            <!-- Button back-->
-            <div class="flex justify-center items-center">
-                <button type="submit"
-                class="mt-4 w-96 text-white bg-[#FF0000] font-bold hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
-                <a href="" class="ml-3 font-normal text-[24px]"> Back</a>
-            </button>
-            </div>
-
-            <div class="text-center mt-3 text-xl">
-                <p>Don't have an accouny yet ? <a href="" class="text-blue-500 hover:text-blue-700">Sign In</a></p>
-            </div>        
+                            <div class="text-center mt-3 text-xl">
+                                <p>Already have an account ? <a href="" class="text-blue-500 hover:text-blue-700">Log in</a></p>
+                            </div>        
+                        </form>
+                    </div>
+                </div>
+              </div>
+        </div>
       </div>
     </main>
     </div>

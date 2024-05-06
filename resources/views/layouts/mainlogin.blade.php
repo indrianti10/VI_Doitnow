@@ -15,15 +15,15 @@
     {{-- icon --}}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
    rel="stylesheet">
-   {{-- flowbite --}}
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+   {{-- daisyui --}}
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css" rel="stylesheet" type="text/css" />
    
 
     <title>DoitNow</title>
 </head>
 
 <body>
-    
+    @include('partials.navbarlogin')
     @yield('container')
     
 </body>
@@ -33,6 +33,7 @@
 <script src="/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
 
 {{-- vanilla tilt --}}
 {{-- <script type="text/javascript" src="/js/vanilla-tilt.min.js"></script>
