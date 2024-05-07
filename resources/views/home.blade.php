@@ -59,13 +59,13 @@
   <!-- banner -->
 
   <!-- conten1 -->
-  <section class="lg:mt-[-318px] mt-[-50px] text-center flex items-center justify-center  background  lg:h-44 h-20 w-full">
+  <section class="lg:mt-[-200px] mt-[-50px]  text-center flex items-center justify-center  background  lg:h-44 h-20 w-full">
     <h1 class="font-bold text-white lg:text-[50px] text-base ">Have fun, get paid, and earn rewards with doitnow!</h1>  
   </section>
   <!-- conten1 -->
 
   <!-- content 2 -->
-  <section class=" lg:mt-36 mt-8 pt-10 text-center  background1  mb-20 ">
+  <section class=" lg:mt-36 mt-3 pt-10 text-center  background1  mb-20 ">
     <div class="grid grid-cols-3 sm:grid-cols-3 gap-10 mx-10 mt-[-50px] lg:mt-12">
       <div class="counter flex flex-col justify-center  items-center py-8 rounded-lg text-3xl font-bold ">
         <img src="../img/Users.png" class="lg:mt-[-10px]" alt="">
@@ -93,16 +93,17 @@
     <div class="absolute top-0 right-0 lg:w-28 lg:h-28 w-20 h-20 mt-10 rounded-full bg-white animate-lingkaran animate-bullet-top">
       <div class="flex mt-[-36px] ml-[-56px] lg:w-14 lg:h-14 w-11 h-11 rounded-full bg-white animate-lingkaran animate-bullet-top"></div>
     </div>
-    <div  class="lg:mx-32 lg:pt-0 pt-28">
-      <h1 class="lg:text-[63px] text-2xl mb-10 mt-[-50px] lg:pt-20 lg:h-36 lg:ml-0 ml-10 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#010101] to-[#FF0000]  ">What is your possition ?</h1>
-      <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 lg:mt-14 lg:mx-24">
+    <div class="lg:mx-32 lg:pt-0 pt-28">
+       <h1 class="lg:text-[63px] text-2xl mb-10 mt-[-50px] lg:pt-20 lg:h-36 lg:ml-0 ml-10 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#010101] to-[#FF0000]  ">What is your possition ?</h1>
+        <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 lg:mt-14 lg:mx-24">
+          {{-- company --}}
           <!-- Modal toggle -->
           <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block transition duration-300 transform hover:scale-105 font-medium rounded-lg text-sm px-5 py-2.5 text-center " type="button">
             <div class="lg:h-32 mx-10 lg:mx-0 flex justify-center py-3 lg:py-0 content-center shadow-lg shadow-slate-500 rounded-lg bg-grid ">
               <div class="flex justify-center items-center ">
                 <img src="../img/Project Manager.png" class="w-16" alt="">
-                <p class="lg:text-4xl text-2xl ml-4 lg:pt-6 font-semibold text-white">a Company </p>
-                <i class="fas fa-chevron-right text-2xl lg:text-4xl pt-3 lg:pt-9 ml-5 "></i>
+                <p class="lg:text-4xl text-2xl ml-4 font-semibold text-white">a Company </p>
+                <i class="fas fa-chevron-right text-2xl lg:text-4xl pt-3 lg:pt-3 ml-5 "></i>
               </div>  
             </div>
           </button>
@@ -111,16 +112,16 @@
               <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                   <div class="relative p-4 w-full mb-12 lg:mt-10 max-w-md max-h-full">
                       <!-- Modal content -->
-                      <div class="justify-center items-center relative bg-white lg:w-[1200px] lg:ml-[-400px]  rounded-xl shadow dark:bg-gray-700">
+                      <div class="justify-center items-center relative bg-white lg:w-[1200px] lg:ml-[-400px]  rounded-xl shadow ">
                           <!-- Modal header -->
                           <div class="">               
                               <div class="flex justify-end items-center">
-                                <button type="button" class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="default-modal">
                                   <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                                   </svg>
                                   <span class="sr-only">Close modal</span>
-                                </button>
+                              </button>
                               </div>
 
                               <div class="flex justify-end items-end"> 
@@ -180,31 +181,131 @@
                       </div>
                   </div>
               </div> 
-          <!-- Modal toggle -->
-          <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block transition duration-300 transform hover:scale-105 font-medium rounded-lg text-sm px-5 py-2.5 text-center " type="button">
-            <div class="lg:h-32 mx-10 lg:mx-0 flex justify-center py-3 lg:py-0 content-center shadow-lg shadow-slate-500 rounded-lg bg-grid ">
-              <div class="flex justify-center items-center ">
-                <img src="../img/Requirements.png" class="w-16" alt="">
-                <p class="lg:text-4xl text-2xl ml-4 lg:pt-6 font-semibold text-white">a Missionary </p>
-                <i class="fas fa-chevron-right text-2xl lg:text-4xl pt-3 lg:pt-9 ml-5 "></i>
-              </div>  
-            </div>
-          </button>
+
+              {{-- missionary --}}
+              <!-- Modal toggle -->
+              <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="block transition duration-300 transform hover:scale-105  font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="button">
+                <div class="lg:h-32 mx-10 lg:mx-0 flex justify-center py-3 lg:py-0 content-center shadow-lg shadow-slate-500 rounded-lg bg-grid ">
+                  <div class="flex justify-center items-center ">
+                    <img src="../img/Requirements.png" class="w-16" alt="">
+                    <p class="lg:text-4xl text-2xl ml-4  font-semibold text-white">a Missionary </p>
+                    <i class="fas fa-chevron-right text-2xl lg:text-4xl pt-3 lg:pt-3 ml-5 "></i>
+                  </div>  
+                </div>
+              </button>
 
               <!-- Main modal -->
-              <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+              <div id="default-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                  <div class="relative p-4 w-full max-w-2xl max-h-full">
+                      <!-- Modal content -->
+                      <div class="relative bg-white lg:w-[1200px] lg:ml-[-270px] rounded-xl shadow ">
+                          <!-- Modal header -->
+                          <div class="">               
+                            <div class="flex justify-end items-center">
+                              <button type="button" class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                                </svg>
+                                <span class="sr-only">Close modal</span>
+                              </button>
+                            </div>
+
+                            <div class="flex justify-end items-end"> 
+                              <img src="/img/logo.png" class="w-20 lg:w-32"  alt="">
+                            </div>
+                            <img src="/img/bg6.png" class="w-24 mt-[-40px] z-20" alt="">
+
+                            <div class="mt-[-45px] text-center">
+                              <p class="bg-[#FF0000] text-white text-xl lg:text-3xl lg:py-2">Hello beloved Missionary lets doitnow</p>
+                            </div>
+
+                            <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+                              <div class="h-32 mt-12 lg:col-span-2 lg:order-none order-2 ">
+                                <p class="text-center font-medium lg:text-start lg:mx-10 lg:text-2xl lg:mt-10">Gamified task, swift earnings, limitless missions!  <span class="text-[#FF0000]">Earn Exciting Rewards, Work from Anywhere,</span>  and <span class="text-[#FF0000]">Earn Extra Income</span> by becoming part of </p>
+                                <p class="text-[#FF0000] lg:text-2xl font-bold text-center lg:mt-2 lg:mx-10 lg:text-start"> doitnow !!</p>
+                              </div>
+                              <div class="h-32  mt-3 lg:order-none order-1 justify-center items-center flex">
+                                <img src="/img/hp.png" class="w-24 mt-14 lg:w-40 lg:mt-56" alt="">
+                              </div>
+                            </div>       
+                        </div>
+                          <!-- Modal body -->
+                          <div class="p-4 md:p-5 border-1 bg-[#FF0000] lg:h-[600px] h-96 mb-32  overflow-y-auto lg:mt-28">
+                          
+                            <form class="space-y-2 lg:mt-20  lg:border-4 lg:w-[700px] lg:rounded-lg lg:bg-[#D20000]" action="#">
+                              <h1 class="text-center font-bold text-2xl text-white lg:my-5  ">Register here</h1>
+                               
+                                <div>
+                                    <label for="name" class="block  text-sm font-medium lg:mx-3 text-gray-900 ">Name</label>
+                                    <input type="text" name="name" id="name"class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full lg:w-[680px] lg:mx-2 p-2.5  " placeholder="Enter your name" required />
+                                </div>
+                                <div>
+                                  <label for="email" class="block text-sm font-medium lg:mx-3 text-gray-900 ">Email</label>
+                                  <input type="email" name="email" id="email" placeholder="Enter your email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full lg:w-[680px] lg:mx-2 p-2.5  " required />
+                              </div>
+                                <div>
+                                    <label for="number" class="block  text-sm font-medium lg:mx-3 text-gray-900 ">Whatsapp number</label>
+                                    <input type="number" name="number" id="number" placeholder="Enter your whatsapp number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full lg:w-[680px] lg:mx-2 p-2.5  " required />
+                                </div>                                
+                                <div>
+                                  <label for="countries" class="block mb-2 text-sm font-medium lg:mx-3 text-gray-900 ">Province</label>
+                                    <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 lg:w-[680px] lg:mx-2 " required >
+                                      <option >Choose your Province</option>
+                                      <option>Jakarta</option>
+                                      <option>West Java</option>
+                                      <option>East Java</option>
+                                      <option>Bali</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="w-full text-white mx-auto bg-black hover:bg-grey-800 focus:ring-4 focus:outline-none focus:ring-gray-500 font-medium rounded-lg text-sm px-2 py-2.5 text-center">Send</button>
+                            </form>
+
+                            <div class="lg:flex lg:justify-end lg:items-center lg:mt-[-400px]">
+                              <img src="/img/bg7.png" class="hidden md:block lg:w-[300px] " alt="">
+                            </div>
+                            <div class="lg:flex lg:justify-end lg:items-center lg:mt-[-4px">
+                              <img src="/img/loginbanner.png" class="hidden md:block lg:w-[300px] " alt="">
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+        </div>
+    </div>
+    <img src="/img/bg2.png" class="lg:mt-[-100px} mt-[-120px] w-64" alt="">
+  </div>
+  <!-- content 3 -->
+
+  <!-- content 4 -->
+  <section class="lg:mt-[-200px] mt-[-550px]   ">
+    <h2 class=" lg:text-[53px] text-2xl h-20 mx-5 lg:ml-32 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#010101]  to-[#FF0000]">Do you as a company?</h2>
+    <div class="grid grid-cols-2 gap-4 lg:grid-cols-2 lg:gap-8 mx-5 ">
+      <div class="h-96 lg:ml-32 text-sm lg:text-[34px] font-semibold lg:mt-5 mt-3">
+        <p class="mb-1 lg:mb-5">Connecting you with a community</p>
+        <p class="mb-1 lg:mb-5">of active, reward-seeking</p>
+        <p class="mb-1 lg:mb-5">individuals eager to interact with</p>
+        <p class="mb-3 lg:mb-8">your brand</p>
+          {{-- company --}}
+          <!-- Modal toggle -->
+          <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="block border rounded-lg text-[26px] px-8 py-1 lg:px-12 lg:py-3 bg-[#DD2120] text-white transition custom-btn inline-blocfont-semibold shadow-xl shadow-slate-300  duration-300 transform hover:scale-105 font-medium text-sm text-center  " type="button">
+            Get Started
+          </button>
+
+          <!-- Main modal -->
+          <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                   <div class="relative p-4 w-full mb-12 lg:mt-10 max-w-md max-h-full">
                       <!-- Modal content -->
-                      <div class="justify-center items-center relative bg-white lg:w-[1200px] lg:ml-[-400px]  rounded-xl shadow dark:bg-gray-700">
+                      <div class="justify-center items-center relative bg-white lg:w-[1200px] lg:ml-[-400px]  rounded-xl shadow ">
                           <!-- Modal header -->
                           <div class="">               
                               <div class="flex justify-end items-center">
-                                <button type="button" class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center " data-modal-hide="authentication-modal">
                                   <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                                   </svg>
                                   <span class="sr-only">Close modal</span>
-                                </button>
+                              </button>
                               </div>
 
                               <div class="flex justify-end items-end"> 
@@ -213,12 +314,12 @@
                               <img src="/img/bg6.png" class="w-24 mt-[-40px] z-20" alt="">
 
                               <div class="mt-[-45px] text-center">
-                                <p class="bg-[#FF0000] text-white text-xl lg:text-3xl lg:py-2">Hello beloved missionary lets doitnow</p>
+                                <p class="bg-[#FF0000] text-white text-xl lg:text-3xl lg:py-2">Hello beloved company lets doitnow</p>
                               </div>
 
                               <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
                                 <div class="h-32  lg:col-span-2 lg:order-none order-2 ">
-                                  <p class="text-center font-medium lg:text-start lg:mx-10 lg:text-2xl lg:mt-10">Gamified task, swift earnings, limitless missions! <span class="text-[#FF0000]">Earn Exciting Rewards, Work from Anywhere,</span>  and <span class="text-[#FF0000]">Earn Extra Income</span> </p>
+                                  <p class="text-center font-medium lg:text-start lg:mx-10 lg:text-2xl lg:mt-10">Partner with doitnow and tap into the power of engaged consumers to achieve your business goals. <span class="text-[#FF0000]">Achieve Marketing Goals, Save marketing Coats,</span>  and <span class="text-[#FF0000]">Expand Business Reach with</span> </p>
                                   <p class="text-[#FF0000] lg:text-2xl font-bold text-center lg:mt-3 lg:mx-10 lg:text-start"> doitnow !!</p>
                                 </div>
                                 <div class="h-32  mt-3 lg:order-none order-1 justify-center items-center flex">
@@ -263,96 +364,158 @@
                           </div>
                       </div>
                   </div>
-              </div> 
-      </div>
-    </div>
-    <img src="/img/bg2.png" class="lg:mt-[-100px} mt-[-120px] w-64" alt="">
-  </div>
-  <!-- content 3 -->
-
-  <!-- content 4 -->
-  {{-- <section class="lg:mt-[-200px] mt-[-550px]   ">
-    <h2 class=" lg:text-[49px] text-2xl h-20 lg:ml-32 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#010101]  to-[#FF0000]">Do you as a company?</h2>
-    <div class="grid grid-cols-1 gap-4 lg:grid-cols-2  lg:gap-8">
-      <div class="h-96 lg:ml-32 text-3xl lg:text-[34px] font-semibold lg:mt-5 mt-3">
-        <p class="mb-3">Connecting you with a community</p>
-        <p class="mb-3">of active, reward-seeking</p>
-        <p class="mb-3">individuals eager to interact with</p>
-        <p class="mb-8">your brand</p>
-          <a href="" class="border rounded-lg text-[26px] px-12 py-3 bg-[#DD2120] text-white transition custom-btn inline-blocfont-semibold shadow-xl shadow-slate-300">Get Started</a>
+          </div> 
       </div>
       <div class="h-32 ">
-        <img src="/img/grafik.png" class="" alt="">
+        <img src="/img/grafik.png" class="w-32 lg:w-[400px]" alt="">
       </div>
     </div>
-  </section>  --}}
+  </section> 
   <!-- content 4 -->
 
   {{-- content 5 --}}
-  {{-- <div class="flex justify-end">
-    <img src="/img/bg3.png" class="z-[-30px] " alt="">
+  <div class="flex justify-end">
+    <img src="/img/bg3.png" class="z-[-30px] mt-[-200px] w-40 h-40 lg:w-96 lg:h-96 " alt="">
   </div>
 
   <div class=" flex justify-center lg:mt-[-350px]">
-    <img src="/img/bg4.png" class="z-[-30px] " alt="">
+    <img src="/img/bg4.png" class="z-[-30px]  mt-[-200px] lg:mt-44 w-24 h-24 ml-[-30px] " alt="">
   </div>
   
-  <section class=" ml-20 lg:mt-[-200px]">
+  <section class=" ml-20 lg:mt-[-100px] mt-[-170px] ">
     
-    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+    <div class="grid grid-cols-2 gap-1 lg:grid-cols-3 lg:gap-8">
       <div class="h-32 ">
-        <img src="/img/hp.png" alt="">
+        <img src="/img/hp.png" class="w-24 lg:w-full" alt="">
       </div>
       
       <div class="h-32  lg:mt-44  lg:col-span-2">      
-        <h1 class="text-[49px] font-semibold">Do You as a missionary? </h1>
-        <div class="mt-5 text-[65px] font-semibold mb-10">
+        <h1 class="lg:text-[49px] lg:font-semibold font-bold">Do You as a missionary? </h1>
+        <div class="mt-5 lg:text-[65px] font-semibold mb-10">
           <p>Monetize Your Mission with</p>
-          <p>doitnow: Earn, Share, and Impact</p>
-        </div>
-        <a href="" class="border rounded-lg text-[26px] px-16 py-3 bg-[#DD2120] text-white transition custom-btn inline-blocfont-semibold shadow-xl shadow-slate-300">Get Started</a>
+          <p class="mb-3 ">doitnow: Earn, Share, and Impact</p>
+        {{-- missionary --}}
+              <!-- Modal toggle -->
+              <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="block border rounded-lg text-[26px] px-8 py-1 lg:px-12 lg:py-3 bg-[#DD2120] text-white transition custom-btn inline-blocfont-semibold shadow-xl shadow-slate-300  duration-300 transform hover:scale-105 font-medium text-sm text-center" type="button">
+                Get Started
+              </button>
 
-      </div>
+              <!-- Main modal -->
+              <div id="default-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                  <div class="relative p-4 w-full max-w-2xl max-h-full">
+                      <!-- Modal content -->
+                      <div class="relative bg-white lg:w-[1200px] lg:ml-[-270px] rounded-xl shadow ">
+                          <!-- Modal header -->
+                          <div class="">               
+                            <div class="flex justify-end items-center">
+                              <button type="button" class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                                </svg>
+                                <span class="sr-only">Close modal</span>
+                              </button>
+                            </div>
+
+                            <div class="flex justify-end items-end"> 
+                              <img src="/img/logo.png" class="w-20 lg:w-32"  alt="">
+                            </div>
+                            <img src="/img/bg6.png" class="w-24 mt-[-40px] z-20" alt="">
+
+                            <div class="mt-[-45px] text-center">
+                              <p class="bg-[#FF0000] text-white text-xl lg:text-3xl lg:py-2">Hello beloved Missionary lets doitnow</p>
+                            </div>
+
+                            <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+                              <div class="h-32 mt-12 lg:col-span-2 lg:order-none order-2 ">
+                                <p class="text-center font-medium lg:text-start lg:mx-10 lg:text-2xl lg:mt-10">Gamified task, swift earnings, limitless missions!  <span class="text-[#FF0000]">Earn Exciting Rewards, Work from Anywhere,</span>  and <span class="text-[#FF0000]">Earn Extra Income</span> by becoming part of </p>
+                                <p class="text-[#FF0000] lg:text-2xl font-bold text-center lg:mt-2 lg:mx-10 lg:text-start"> doitnow !!</p>
+                              </div>
+                              <div class="h-32  mt-3 lg:order-none order-1 justify-center items-center flex">
+                                <img src="/img/hp.png" class="w-24 mt-14 lg:w-40 lg:mt-56" alt="">
+                              </div>
+                            </div>       
+                        </div>
+                          <!-- Modal body -->
+                          <div class="p-4 md:p-5 border-1 bg-[#FF0000] lg:h-[600px] h-96 mb-32  overflow-y-auto lg:mt-28">
+                          
+                            <form class="space-y-2 lg:mt-20  lg:border-4 lg:w-[700px] lg:rounded-lg lg:bg-[#D20000]" action="#">
+                              <h1 class="text-center font-bold text-2xl text-white lg:my-5  ">Register here</h1>
+                               
+                                <div>
+                                    <label for="name" class="block  text-sm font-medium lg:mx-3 text-gray-900 ">Name</label>
+                                    <input type="text" name="name" id="name"class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full lg:w-[680px] lg:mx-2 p-2.5  " placeholder="Enter your name" required />
+                                </div>
+                                <div>
+                                  <label for="email" class="block text-sm font-medium lg:mx-3 text-gray-900 ">Email</label>
+                                  <input type="email" name="email" id="email" placeholder="Enter your email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full lg:w-[680px] lg:mx-2 p-2.5  " required />
+                              </div>
+                                <div>
+                                    <label for="number" class="block  text-sm font-medium lg:mx-3 text-gray-900 ">Whatsapp number</label>
+                                    <input type="number" name="number" id="number" placeholder="Enter your whatsapp number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full lg:w-[680px] lg:mx-2 p-2.5  " required />
+                                </div>                                
+                                <div>
+                                  <label for="countries" class="block mb-2 text-sm font-medium lg:mx-3 text-gray-900 ">Province</label>
+                                    <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 lg:w-[680px] lg:mx-2 " required >
+                                      <option >Choose your Province</option>
+                                      <option>Jakarta</option>
+                                      <option>West Java</option>
+                                      <option>East Java</option>
+                                      <option>Bali</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="w-full text-white mx-auto bg-black hover:bg-grey-800 focus:ring-4 focus:outline-none focus:ring-gray-500 font-medium rounded-lg text-sm px-2 py-2.5 text-center">Send</button>
+                            </form>
+
+                            <div class="lg:flex lg:justify-end lg:items-center lg:mt-[-400px]">
+                              <img src="/img/bg7.png" class="hidden md:block lg:w-[300px] " alt="">
+                            </div>
+                            <div class="lg:flex lg:justify-end lg:items-center lg:mt-[-4px">
+                              <img src="/img/loginbanner.png" class="hidden md:block lg:w-[300px] " alt="">
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
       
     </div>
     
-    <div class="flex justify-end">
-      <img src="/img/bg5.png" class="z-[-30px] lg:mt-96 lg:mr-96 w-[200px]" alt="">
+    <div class="flex lg:justify-end">
+      <img src="/img/bg5.png" class="z-[-30px] lg:mt-[200px] lg:mr-96 lg:w-[200px] w-16 mt-[-40px] ml-[-90px]" alt="">
     </div>
-  </section> --}}
+  </section>
   
   {{-- content 5 --}}
 
   {{-- content 6 --}}
     
-  {{-- <section class="lg:mt-3 mx-20">
-    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
-      <div class="h-72 rounded-lg bg-[#DD2120] lg:col-span-2">
-        <h1 class="text-[52px] font-semibold mx-28">Unlock Rewards, Accomplish </h1>
-        <p class="text-[52px] font-semibold mx-28">Missions.</p>
-        <p class=" justify-end flex mr-5 lg:text-4xl font-bold text-white ">doitnow</p>
+  <section class="lg:mt-[700px] lg:mx-20 mx-5 mt-32">
+    <div class="grid grid-cols-2 gap-4 lg:grid-cols-3 lg:gap-8">
+      <div class="lg:h-72 h-32 rounded-lg bg-[#DD2120] lg:col-span-2">
+        <h1 class="lg:text-[52px] lg:font-semibold font-bold lg:mx-28 m-2">Unlock Rewards, Accomplish </h1>
+        <p class="lg:text-[52px] lg:font-semibold lg:mx-28 font-bold mx-2">Missions.</p>
+        <p class=" justify-end flex mr-5 lg:text-4xl font-bold text-white m-2 lg:mt-[-10px] ">doitnow</p>
       </div>
-      <div class="h-72 mt-[-10px] ">
+      <div class="lg:h-72 h-32 mt-[-10px] ">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
           <!-- Carousel wrapper -->
-          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <div class="relative lg:h-66 h-64 overflow-hidden rounded-lg md:h-96 ">
               <!-- Item 1 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img src="/img/Property1.png" class="mx-24" alt="...">
+                  <img src="/img/Property1.png" class="lg:mx-24 w-32 lg:w-[260px] mx-6" alt="...">
               </div>
               <!-- Item 2 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                  <img src="/img/Property2.png" class="mx-24" alt="...">
+                  <img src="/img/Property2.png" class="lg:mx-24 w-32 lg:w-[260px] mx-6" alt="...">
               </div>
               <!-- Item 3 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/img/Property3.png" class=" mx-24 " alt="">
+                <img src="/img/Property3.png" class="lg:mx-24 w-32 lg:w-[260px] mx-6 " alt="">
               </div>
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/img/Property1.png" class=" mx-24 " alt="">
+                <img src="/img/Property1.png" class=" lg:mx-24 w-32 lg:w-[260px] mx-6 " alt="">
               </div>
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/img/Property2.png" class=" mx-24 " alt="">
+                <img src="/img/Property2.png" class=" lg:mx-24 w-32 lg:w-[260px] mx-6 " alt="">
               </div>
           </div>
           <!-- Slider indicators -->
@@ -366,11 +529,11 @@
         </div>
       </div>
     </div>
-  </section> --}}
+  </section>
   {{-- content 6 --}}
 
   <!-- content card -->
-  {{-- <section class="lg:mb-5 lg:mt-[100px] mt-[-300px] ">
+  <section class="lg:mb-5 lg:mt-[100px] mt-16 ">
     <h1 class="pl-5 text-5xl lg:text-[76px] py-6 font-bold text-center mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#FF0000] to-[#010101]">Why users love Doitnow.id?</h1>
     <div class="flex justify-center">
         <div class="w-3/10 flex items-center">
@@ -502,12 +665,12 @@
             </div>
         </div>
     </div>
-</section> --}}
+  </section>
 
   <!-- content card -->
 
-  <!-- patner -->
-  {{-- <div class="relative w-full h-screen lg:mt-10 mt-10 ">
+  <!-- banner akhir-->
+  <div class="relative w-full h-screen lg:mt-10 mt-10 ">
    
     <div class="absolute top-0 right-0 lg:w-40 lg:h-40 w-20 h-20 lg:mt-[-60px] mt-[-200px] rounded-full bg-white animate-lingkaran animate-bullet-top">
       <div class="flex lg:mt-20 lg:ml-[-90px] ml-[-90px] lg:w-14 lg:h-14 w-11 h-11 rounded-full bg-white animate-lingkaran animate-bullet-top">
@@ -527,11 +690,11 @@
       <div class=" mr-64 w-full text-center lg:col-span-2 mt-96">
         <h1 class="lg:text-[63px] text-5xl text-centertext-3xl lg:mt-[-500px] mt-[-200px] lg:pt-20 lg:h-44 font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#FF0000] to-[#010101]">Sign up and </h1>
         <h1 class="lg:text-[63px] text-5xl text-centertext-3xl lg:mt-[-20px]  lg:h-44 h-48 font-bold bg-clip-text text-transparent bg-gradient-to-r mb-[-90px]  from-[#FF0000] to-[#010101] lg:mb-[-60px] ">get the prize </h1>
-        <a class="inline-block rounded-full shadow-slate-500 shadow-xl bg-black px-8 py-3 text-[20px] font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-black" href="#">Sign Up Now !
+        <a class="inline-block rounded-full shadow-slate-500 shadow-xl bg-black px-8 py-3 text-[20px] font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-black" href="/login">Sign Up Now !
         </a>
 
       </div>
-  </div> --}}
-  <!-- patner -->
+  </div>
+  <!-- banner akhir-->
     
 @endsection
