@@ -66,7 +66,7 @@
                             <div class="flex justify-center items-center">
                                 <button type="submit"
                                 class="mt-4 w-96 text-white bg-[#FF0000] font-bold hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
-                                <a href="" class="ml-3 font-normal text-[24px]"> Back</a>
+                                <a href="/" class="ml-3 font-normal text-[24px]"> Back</a>
                                 </button>
                             </div>
 
@@ -117,7 +117,7 @@
                             <div class="flex justify-center items-center">
                                 <button type="submit"
                                 class="mt-4 w-96 text-white bg-[#FF0000] font-bold hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
-                                <a href="" class="ml-3 font-normal text-[24px]"> Back</a>
+                                <a href="/home" class="ml-3 font-normal text-[24px]"> Back</a>
                                 </button>
                             </div>
 
@@ -168,7 +168,7 @@
                             <div class="flex justify-center items-center">
                                 <button type="submit"
                                 class="mt-4 w-96 text-white bg-[#FF0000] font-bold hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm  py-3">
-                                <a href="" class="ml-3 font-normal text-[24px]"> Back</a>
+                                <a href="/home" class="ml-3 font-normal text-[24px]"> Back</a>
                                 </button>
                             </div>
 

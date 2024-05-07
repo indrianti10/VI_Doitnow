@@ -1,9 +1,9 @@
 <!-- navbar -->
-<nav class=" bg-bg fixed z-50 w-full py-4 shadow-lg transition-all duration-300 backdrop:blur-xl bg-[#F4F4F4]">
+<nav class=" bg-bg fixed z-50 w-full  py-4 shadow-lg transition-all duration-300 backdrop:blur-xl bg-[#F4F4F4]">
     <div class=" mx-auto px-4 py-2 flex justify-between items-center">
       <div>
         <a href="#home">
-          <img src="/img/logo.png" alt="" width="200" height="30">
+          <img src="/img/logo.png" alt="" class="w-[100px] ">
         </a>
        
       </div>
@@ -45,5 +45,5 @@
       href="#"> Sign Up
     </a>
     </div>
-  </nav>
+</nav>
   <!-- navbar -->
