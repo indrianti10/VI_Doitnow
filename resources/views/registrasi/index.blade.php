@@ -4,9 +4,8 @@
      
 <section class="bg-white">
     <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
-      <section class="relative flex h-32 items-center bg-red-600 lg:col-span-5 lg:h-full xl:col-span-6">
-            <img src="/img/loginbanner.png" class="flex justify-center items-center px-32 " alt="">
-
+      <section class="relative flex h-44 items-center bg-red-600 lg:col-span-5 lg:h-full xl:col-span-6">
+            <img src="/img/loginbanner.png" class="flex justify-center items-center px-32" alt="">
       </section>
   
      
@@ -15,15 +14,28 @@
     >
       <div class="max-w-xl lg:w-full lg:mt-[-50px]">
 
-        <h2 class="text-center mt-10 text-[25px] font-medium">Log in to Button as...</h2>
+        <h1 class="mt-6 text-[45px] text-center font-bold text-gray-900 sm:text-3xl md:text-4xl">
+          Create your account
+        </h1>
+
+        <p class="mt-1 text-center leading-relaxed text-gray-500">
+            Get started  - deliver your best work with us
+        </p>
+        <h2 class="text-center mt-10 text-[25px] font-medium">Sign in to Button as...</h2>
 
         <div class="flex justify-center items-center mt-4">
             <div role="tablist" class="tabs tabs-bordered ">
-              {{-- admin --}}
+                {{-- Admin --}}
                 <input type="radio" name="my_tabs_1" role="tab" class="tab text-xl font-medium hover:text-red-600" aria-label="Admin" checked />
                 <div role="tabpanel" class="tab-content pt-5">
                     <div class="max-w-md ">
                         <form class="pt-2 pb-8 mb-4">
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="name">
+                              Name
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg lg:w-full w-96 lg:ml-0 ml-3 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your full name">
+                          </div>
                           <div class="mb-4">
                             <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="email">
                               Email
@@ -59,7 +71,7 @@
                             </div>
 
                             <div class="text-center mt-3 text-xl">
-                                <p>Don’t have an account yet ?  <a href="/registrasi" class="text-blue-500 hover:text-blue-700">Sing in</a></p>
+                                <p>Already have an account ? <a href="/login" class="text-blue-500 hover:text-blue-700">Log in</a></p>
                             </div>        
                         </form>
                     </div>                     
@@ -71,6 +83,12 @@
                     <div class="max-w-md ">
                         <form class="pt-2 pb-8 mb-4">
                           <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="name">
+                              Name
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg lg:w-full w-96 lg:ml-0 ml-3 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your full name">
+                          </div>
+                          <div class="mb-4">
                             <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="email">
                               Email
                             </label>
@@ -81,6 +99,12 @@
                               Password
                             </label>
                             <input class="shadow appearance-none border rounded-lg lg:w-full w-96 lg:ml-0 ml-3 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter at least 8 characters">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="admin-id">
+                              Phone number
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg lg:w-full w-96 lg:ml-0 ml-3 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="admin-id" type="text" placeholder="Enter your personal or company number">
                           </div>
                           <!-- Button continue -->
                             <div class="flex justify-center items-center">
@@ -99,18 +123,23 @@
                             </div>
 
                             <div class="text-center mt-3 text-xl">
-                                <p>Don’t have an account yet ?  <a href="/registrasi" class="text-blue-500 hover:text-blue-700">Sing in</a></p>
+                                <p>Already have an account ? <a href="/login" class="text-blue-500 hover:text-blue-700">Log in</a></p>
                             </div>        
                         </form>
-                    </div>
+                    </div>                     
                 </div>
               
-                {{-- missionary --}}
+                {{-- Missionary --}}
                 <input type="radio" name="my_tabs_1" role="tab" class="tab text-xl font-medium hover:text-red-600" aria-label="Missionary" />
                 <div role="tabpanel" class="tab-content pt-5">
                     <div class="max-w-md ">
                         <form class="pt-2 pb-8 mb-4">
-                          
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="name">
+                              Name
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg lg:w-full w-96 lg:ml-0 ml-3 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Enter your full name">
+                          </div>
                           <div class="mb-4">
                             <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="email">
                               Email
@@ -122,6 +151,12 @@
                               Password
                             </label>
                             <input class="shadow appearance-none border rounded-lg lg:w-full w-96 lg:ml-0 ml-3 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter at least 8 characters">
+                          </div>
+                          <div class="mb-4">
+                            <label class="block text-gray-700 text-lg font-bold mb-2 lg:ml-0 ml-4" for="admin-id">
+                              Phone number
+                            </label>
+                            <input class="shadow appearance-none border rounded-lg lg:w-full w-96 lg:ml-0 ml-3 py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="admin-id" type="text" placeholder="Enter your phone number">
                           </div>
                           <!-- Button continue -->
                             <div class="flex justify-center items-center">
@@ -140,10 +175,10 @@
                             </div>
 
                             <div class="text-center mt-3 text-xl">
-                                <p>Don’t have an account yet ?  <a href="/registrasi" class="text-blue-500 hover:text-blue-700">Sing in</a></p>
+                                <p>Already have an account ? <a href="/login" class="text-blue-500 hover:text-blue-700">Log in</a></p>
                             </div>        
                         </form>
-                    </div>
+                    </div>                     
                 </div>
               </div>
         </div>

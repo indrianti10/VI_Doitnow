@@ -1,6 +1,6 @@
 <!-- footer -->
 <footer>
-    <div class=" footer lg:h-56 h-64  bg-[#DD2120] rounded-lg lg:mb-4 mt-80 lg:mt-5 ">
+    <div class=" footer   lg:h-56 h-64  bg-[#DD2120] rounded-lg lg:mb-4 mt-80 lg:mt-10  ">
       
 
       <!-- grid -->
@@ -48,7 +48,7 @@
    <!-- copyright -->
    
    <div>
-    <p class="text-[26px] h-20 py-5 mt-12  bg-copyrigth lg:mt-32 text-center">&copy; 2023 Copyright <span class="font-semibold">by doitnow.id.</span> </p>
+    <p class="text-[26px] h-20 py-5 mt-24  bg-copyrigth lg:mt-48 text-center">&copy; 2023 Copyright <span class="font-semibold">by doitnow.id.</span> </p>
    </div>
    <!-- copyright -->
   <!-- footer -->

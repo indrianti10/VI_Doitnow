@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegistrasiController;
 
 // home
 Route::get('/', function () {
@@ -10,3 +11,6 @@ Route::get('/', function () {
 
 // login
 Route::get('/login', [LoginController::class, 'index']);
+
+// Registrasi
+Route::get('/registrasi', [RegistrasiController::class, 'index']);

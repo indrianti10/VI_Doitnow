@@ -3,7 +3,7 @@
     <div class=" mx-auto px-4 py-2 flex justify-between items-center">
       <div>
         <a href="#home">
-          <img src="/img/logo.png" alt="" class="w-[100px] ">
+          <img src="/img/logo.png" alt="" class="w-[100px] lg:w-64 ">
         </a>
        
       </div>
@@ -18,7 +18,7 @@
         </a>
         <a
           class="inline-block rounded-full border border-current ml-2 mr-5 px-5 py-1 text-lg font-medium text-white bg-black transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-white hover:bg-white hover:text-black"
-          href="#"> Sign Up
+          href="/registrasi"> Sign Up
         </a>
       </div>
       <div class="md:hidden">
@@ -38,11 +38,11 @@
       <a href="../src/contact.html" class="block text-black hover:text-gray-300 px-4 py-2">ContactUs</a>
       <a
       class="inline-block rounded-full border border-current  ml-3 px-5 py-1 text-lg font-medium text-[#DD2120] transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-white hover:bg-[#DD2120] hover:text-white"
-      href="#"> Login
+      href="/login"> Login
     </a>
     <a
       class="inline-block rounded-full border border-current ml-2 mr-5 px-5 py-1 text-lg font-medium text-white bg-black transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-white hover:bg-white hover:text-black"
-      href="#"> Sign Up
+      href="/registrasi"> Sign Up
     </a>
     </div>
 </nav>

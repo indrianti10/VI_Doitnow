@@ -104,3 +104,12 @@ function animateValue(id, start, end, duration) {
   
   // Trigger animation for elements already in viewport
   startCountAnimation();
+
+  // Fungsi untuk menutup formulir
+  function closeForm() {
+    // Sembunyikan formulir dengan mengubah properti display menjadi none
+    document.getElementById("myForm").style.display = "none";
+  }
+
+  // Mengaitkan fungsi closeForm dengan tombol "exit"
+  document.getElementById("closeForm").addEventListener("click", closeForm);

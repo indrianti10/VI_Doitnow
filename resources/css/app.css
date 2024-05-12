@@ -105,3 +105,19 @@ animation: fadeIn 3s ease-in-out;
   background: rgb(255,0,0);
 background: linear-gradient(90deg, rgba(255,0,0,1) 49%, rgba(102,0,0,1) 100%);
 }
+
+@keyframes move {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-move {
+  animation: move 5s infinite;
+}
